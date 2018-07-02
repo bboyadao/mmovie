@@ -92,7 +92,7 @@ maybeList response =
             text ""
 
         RemoteData.Loading ->
-            text "Loading..."
+            text "Data Feaching from list page's"
 
         RemoteData.Success posts ->
             movieViews posts

@@ -25,5 +25,6 @@ parseLocation location =
     case (UrlParser.parsePath matchers location) of
         Just route ->
             route 
-        Nothing ->
+        -- Nothing ->
+        _ ->
             NotFoundRoute

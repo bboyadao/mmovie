@@ -10,4 +10,8 @@ import Types exposing (Movie)
 
 detailview : Movie -> Html Msg
 detailview model =
-    div [] [ text  model.des]
+    div [] [
+        h1 [][text  model.title] 
+        ,hr[][]
+        ,h3 [] [text  model.des]
+    ]
